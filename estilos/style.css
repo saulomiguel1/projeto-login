@@ -5,3 +5,48 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #49a09d;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#login {
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 0px 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+}
+
+#login > #imagem {
+    display: block;
+    background: #49a09d url(../imagens/pexels-lexi-lauwers-1431940-33009806\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 220px;
+}
+
+#formulario {
+    display: block;
+    padding: 10px;
+}
