@@ -29,7 +29,7 @@ main {
     position: absolute;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 550px;
     border-radius: 0px 20px;
     left: 50%;
     top: 50%;
@@ -60,6 +60,56 @@ main {
 
 #formulario > p {
     font-size: 0.8em;
-    text-align: justify;
-    padding: 10px;
+}
+
+form > .campo {
+    background-color: #49a09d;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 0px;
+}
+
+form label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #5f2c82;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #3c1c52;
+}
+
+form > .botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    color: #5f2c82;
+    border: 1px solid #5f2c82;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > .botao:hover {
+    background-color: #ac57e6;
+
+}
+
+form > .botao > i {
+    font-size: 0.8em;
 }
